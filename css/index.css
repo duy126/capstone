@@ -1,0 +1,50 @@
+header .container .btn {
+  color: #34495e;
+  background-color: #e67e22;
+  margin-top: 5px;
+  height: 60px;
+  font-size: 15px;
+  text-align: center;
+  margin-right: 10px;
+  font-weight: 800;
+  transition: 0.5s;
+}
+header .container .btn:hover {
+  background-color: #e74c3c;
+}
+header .container .admin-title {
+  background-color: #e67e22;
+  display: flex;
+  align-items: center;
+  width: 85%;
+  height: 60px;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+header .container .admin-title h3 {
+  margin: 0px auto;
+  color: #34495e;
+}
+
+.product-list {
+  padding: 20px 0px;
+}
+.product-list .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px;
+}
+.product-list .container .tool {
+  width: 10%;
+}
+.product-list .container .list {
+  width: 85%;
+}
+.product-list .container .list thead {
+  height: 50px;
+}
+.product-list .container .list thead tr th {
+  color: #34495e;
+  font-size: 15px;
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */
