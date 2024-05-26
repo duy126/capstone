@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <div class="logo">Cap<span>Store</span></div>
+        <ul>
+          <li class="active"><i class="fa-solid fa-house-user"></i> Home</li>
+          <li><i class="fa-regular fa-user"></i> User</li>
+          <li><i class="fa-solid fa-heart"></i> Favourite</li>
+        </ul>
+        <ul>
+          <li><i class="fa-brands fa-tiktok"></i> Tiktok</li>
+          <li><i class="fa-brands fa-facebook"></i> Facebook</li>
+          <li><i class="fa-brands fa-instagram"></i> Instagram</li>
+        </ul>
+      </div>
+      <div class="center">
+        <div class="search">
+          <div class="form">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search..." />
+            <button>Search</button>
+          </div>
+        </div>
+
+        <h2>PRODUCTS</h2>
+        <div class="list">
+          <div class="item" data-key="1">
+            <div class="img">
+              <img
+                src="https://cdn.tgdd.vn/Products/Images/42/114115/iphone-x-64gb-hh-600x600.jpg"
+                alt=""
+              />
+            </div>
+            <div class="content">
+              <div class="title">iphone X</div>
+              <div class="des">Thiết kế mang tính đột phá</div>
+              <div class="price">$1000</div>
+              <input type="number" class="count" min="1" value="1" />
+              <button class="add">Add to cart</button>
+              <button class="remove" onclick="Remove(1)">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item" data-key="2">
+            <div class="img">
+              <img
+                src="https://cdn.tgdd.vn/Products/Images/42/217536/samsung-galaxy-m51-trang-new-600x600-600x600.jpg"
+                alt=""
+              />
+            </div>
+            <div class="content">
+              <div class="title">Samsung Galaxy M51</div>
+              <div class="des">Thiết kế đột phá, màn hình tuyệt đỉnh</div>
+              <div class="price">$3500</div>
+              <input type="number" class="count" min="1" value="1" />
+              <button class="add">Add to cart</button>
+              <button class="remove" onclick="Remove(2)">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item" data-key="3">
+            <div class="img">
+              <img
+                src="https://cdn.tgdd.vn/Products/Images/42/217536/samsung-galaxy-m51-trang-new-600x600-600x600.jpg"
+                alt=""
+              />
+            </div>
+            <div class="content">
+              <div class="title">Samsung Galaxy M22</div>
+              <div class="des">Thiết kế mang tính đột phá</div>
+              <div class="price">$45000</div>
+              <input type="number" class="count" min="1" value="1" />
+              <button class="add">Add to cart</button>
+              <button class="remove" onclick="Remove(3)">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="item" data-key="4">
+            <div class="img">
+              <img
+                src="https://didongviet.vn/pub/media/catalog/product//i/p/iphone-11-pro-max-256gb-didongviet_23.jpg"
+                alt=""
+              />
+            </div>
+            <div class="content">
+              <div class="title">Iphone 11</div>
+              <div class="des">Thiết kế đột phá, màn hình tuyệt đỉnh</div>
+              <div class="price">$1000</div>
+              <input type="number" class="count" min="1" value="1" />
+              <button class="add">Add to cart</button>
+              <button class="remove" onclick="Remove(4)">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cart">
+        <div class="name">Shopping Cart</div>
+        <div class="listCart"></div>
+      </div>
+    </div>
+
+    <script src="./style.css"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

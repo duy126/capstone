@@ -1,3 +1,7 @@
+.container {
+  width: 90% !important;
+}
+
 header .container .btn {
   color: #34495e;
   background-color: #e67e22;
@@ -37,6 +41,13 @@ header .container .admin-title h3 {
 .product-list .container .tool {
   width: 10%;
 }
+.product-list .container .tool .tool-search {
+  display: flex;
+  margin-bottom: 10px;
+}
+.product-list .container .tool .tool-search input {
+  width: 100%;
+}
 .product-list .container .list {
   width: 85%;
 }
@@ -47,4 +58,19 @@ header .container .admin-title h3 {
   color: #34495e;
   font-size: 15px;
   text-align: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+}
+.col input, .col select {
+  height: 40px;
+  border: 1px solid #34495e;
+  border-radius: 4px;
+}
+.col label {
+  height: 20px;
+  margin-bottom: 5px;
 }/*# sourceMappingURL=index.css.map */
